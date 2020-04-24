@@ -16,7 +16,7 @@ public class UnityCharcterController1 : MonoBehaviour
     void Start()
     {
         CC = player.GetComponent<CharacterController>();
-        move_forward = new Vector3(0,0,1);//新しい型を使うときはNeWがいる（インスタンスを作る）
+        move_forward = new Vector3(0,0,1);//新しい型を使うときはNeWがいる（インスタンスを作る）dd
         
         
     }
